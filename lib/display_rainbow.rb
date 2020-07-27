@@ -7,3 +7,5 @@ def display_rainbow(colors = "red", "orange", "yellow", "green", "blue", "indigo
   puts "I: indigo #{colors [5]}"
   puts "V: violet #{colors[6]}"
 end
+
+display_rainbow(colors)
