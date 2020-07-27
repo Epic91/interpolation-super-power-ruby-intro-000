@@ -1,5 +1,13 @@
 require_relative "../lib/display_rainbow.rb"
 
-RSpec.configure do |config|
-  RSpec::Expectations.configuration.warn_about_potential_false_positives = false
+def "display_rainbow" do
+  
+  it "accepts one argument" do
+colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"]
+  end
+
+  it 'prints out the colors of the rainbow correctly when passed in in order' do
+    colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+  end
 end
+
