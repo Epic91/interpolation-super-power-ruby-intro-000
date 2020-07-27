@@ -1,7 +1,7 @@
 require_relative "../lib/display_rainbow.rb"
 
 def "display_rainbow" do
-  
+
   it "accepts one argument" do
 colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"]
   end
@@ -10,4 +10,3 @@ colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"]
     colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
   end
 end
-
