@@ -8,4 +8,4 @@ def display_rainbow(colors = "R: red", "O: orange", "Y: yellow", "G: green", "B:
   puts "V: violet #{colors[6]}"
 end
 
-#display_rainbow
+display_rainbow(colors)
