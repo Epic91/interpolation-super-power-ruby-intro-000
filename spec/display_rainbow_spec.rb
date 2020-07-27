@@ -1,6 +1,6 @@
 describe 'display_rainbow' do
   it 'accepts one argument' do
-    colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+    colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"]
 
     allow(self).to receive(:puts)
 
@@ -9,7 +9,7 @@ describe 'display_rainbow' do
   end
 
   it 'prints out the colors of the rainbow correctly when passed in in order' do
-    colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+    colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"]
 
     expect(colors).to receive(:[]).with(0).at_least(:once).and_return("red")
     expect(colors).to receive(:[]).with(1).at_least(:once).and_return("orange")
